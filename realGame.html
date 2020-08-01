@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="realGame.css">
+</head>
+<body>
+    <div class="container">
+        <div class="score">
+            score: <span id="scoreValue">0</span>
+        </div>
+        <div class="correct">
+            Correct
+        </div>
+        <div class="wrong">
+            Try again
+        </div>
+        <div class="question">
+
+        </div>
+        <div class="instruction">
+            Click on the correct answer
+        </div>
+        <div class="choices">
+            <div id="box1" class="box">
+                
+            </div>
+            <div id="box2" class="box">
+
+            </div>
+            <div id="box3" class="box">
+
+            </div>
+            <div id="box4" class="box">
+
+            </div>
+        </div>
+        <div class="startReset">
+            Start Game
+        </div>
+        <div class="timeCounter">
+            Time Remaining: <span id="timeRemaining">60</span> Sec
+        </div>
+        <div class="gameover">
+            <p>Game Over</p>
+            <p>Your Score is: <span id="score"></span></p>
+        </div>
+    </div>
+    
+</body>
+<script src="game.js"></script>
+</html>
